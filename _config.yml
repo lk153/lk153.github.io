@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Viet Nguyen
+title: Fast, Good, Cheap - pick any two
 email: vietnguyen148@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Just my passionate with technical domain. Share something could help you in your job and get from you also as advices
+  Just my passion for the technical domain. Share something that could help you in your job and get you also as advice
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lk153
+show_contact: true
 
 # Build settings
 # theme: minima

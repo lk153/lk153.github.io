@@ -1,1 +1,1 @@
-## Viet Nguyen \'s Technical Shares
+## Viet Nguyen 's Technical Blogs
