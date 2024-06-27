@@ -41,8 +41,13 @@
               {% for post in site.posts %}
               <li class="media">
                   <div class="media-body">
-                    <a href="{{ post.url }}"><h3 class="mt-0 mb-1">{{ post.title }}</h3></a>
-                    {{ post.desc }}
+                    {% if post.is_external_page %}
+                      <a href="{{ post.external_url }}"><h3 class="mt-0 mb-1">{{ post.title }}</h3></a>
+                      {{ post.desc }}
+                    {% else %}
+                      <a href="{{ post.url }}"><h3 class="mt-0 mb-1">{{ post.title }}</h3></a>
+                      {{ post.desc }}
+                    {% endif %}
                   </div>
               </li>
               {% endfor %}
