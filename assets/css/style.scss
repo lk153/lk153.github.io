@@ -29,6 +29,11 @@ header {
     a.button {
         width: 280px;
         height: 90px;
+
+        &:hover {
+            text-decoration: none;
+            color: #f2ec0e;
+        }
     }
 }
 
@@ -46,6 +51,7 @@ aside#sidebar {
     border-top-left-radius: 25px;
     padding-top: 20px;
     border-color: #00ced1;
+    height: 100%;
 }
 
 form#my-form {
