@@ -8041,7 +8041,7 @@ section.success {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 30px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -8301,23 +8301,89 @@ footer .footer-below {
 }
 
 header {
-    background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+    /* background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x; */
+    background-image: linear-gradient(240deg, #A0E9E5 0%, #FAFDFE 50%, #f3f3f3 100%);
+    color: #000;
 }
 
 section.success {
     background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+
+    hr.star-light {
+        border-color: #fff;
+    }
 }
 
 .profile-pic {
     border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .portfolio-modal .modal-body {
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-inline: 40px;
+
     p {
         font-size: 16px;
     }
 
     .portfolio-details {
         text-align: left;
+    }
+}
+
+#contactForm {
+    .btn {
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        will-change: transform;
+    }
+    
+    .btn:disabled {
+        pointer-events: none;
+    }
+    
+    .btn:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+    
+    .btn:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+}
+
+hr.star-light {
+    border-color: #000;
+}
+
+@media only screen and (min-width: 767px) {
+    #portfolio .portfolio-item {
+        transform: perspective(800px) rotateY(25deg) scale(0.9) rotateX(10deg);
+        transition: 0.6s ease all;
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
+        background: black;
+        box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px, rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+    
+        &:hover {
+            transform:
+                perspective(800px)
+                rotateY(-15deg)
+                translateY(-50px)
+                rotateX(10deg)
+                scale(1);
+        }
+    
+        .portfolio-link .caption {
+            background: none;
+        }
     }
 }
