@@ -8307,3 +8307,17 @@ header {
 section.success {
     background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
 }
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.portfolio-modal .modal-body {
+    p {
+        font-size: 16px;
+    }
+
+    .portfolio-details {
+        text-align: left;
+    }
+}
