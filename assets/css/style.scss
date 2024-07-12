@@ -3,28 +3,22 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background: #fff;
+}
+
 #main-content {
     width: 100%;
 
-    h3 {
-        display: inline-block;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 16px;
-    }
+    h3 {display: inline-block;}
+    h2 {font-size: 24px;}
+    p {font-size: 16px;}
 }
 
 
 
 header {
-    h1 {
-        font-size: 44px;
-    }
+    h1 {font-size: 44px;}
 
     a.button {
         width: 280px;
@@ -52,12 +46,13 @@ aside#sidebar {
     padding-top: 20px;
     border-color: #00ced1;
     height: 100%;
+    background: #fff;
 }
 
 form#my-form {
     border-radius: 15px;
-    box-shadow: 8px 8px #2dcbc733;
-    background: #51b6cb54;
+    box-shadow: 8px 8px #f4efe8;
+    background: #FFFDFA;
 
     label {
         font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -83,6 +78,32 @@ form#my-form {
         &:hover {
             color: #f87d42;
             text-decoration: none;
+        }
+    }
+}
+
+.notfound {
+    img {
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    }
+
+    button {
+        background-color: #2F73C1;
+        color: #fff;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 5px center;
+
+        i {
+            width: 10px;
+            height: 10px;
         }
     }
 }
