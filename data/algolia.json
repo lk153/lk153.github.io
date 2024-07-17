@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Understanding & Utilizing Go Context",
+        "permalink": "understanding-utilizing-go-context.html",
+        "desc": "In Go, the context package is a fundamental tool designed to manage and share request-scoped data, cancellation signals, and timeouts or deadlines across different layers of an application.",
+        "category": "golang"
+    },
+    {
+        "title": "Go Garbage Collector",
+        "permalink": "go-garbage-collector.html",
+        "desc": "In Go, the context package is a fundamental tool designed to manage and share request-scoped data, cancellation signals, and timeouts or deadlines across different layers of an application.",
+        "category": "golang"
+    },
+    {
+        "title": "Go - Best practices for tool dependencies",
+        "permalink": "go-best-practice-tool-deps.html",
+        "desc": "Go modules support developer tools (commands) as dependencies. For example, your project might require a tool to help with code generation, or to lint/vet your code for correctness. Adding developer tool dependencies ensures that all developers use the same version of each tool.",
+        "category": "golang"
+    }
+]

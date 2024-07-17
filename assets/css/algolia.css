@@ -1,0 +1,30 @@
+#searchbox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 280px;
+}
+
+.ais-SearchBox-form {
+    height: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    padding: 0;
+    background: none;
+}
+
+.ais-Hits-item, .ais-InfiniteHits-item, .ais-FrequentlyBoughtTogether-item, .ais-LookingSimilar-item, .ais-RelatedProducts-item, .ais-TrendingItems-item {
+    box-shadow: none;
+    display: block;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    padding: inherit;
+}
+
+.ais-Hits.ais-Hits--empty {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
