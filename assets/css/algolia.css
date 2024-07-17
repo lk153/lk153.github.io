@@ -1,8 +1,6 @@
 #searchbox {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 280px;
+    margin-top: 20px;
+    width: 20em;
 }
 
 .ais-SearchBox-form {

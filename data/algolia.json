@@ -1,20 +1,56 @@
 [
     {
+        "id": 1,
+        "title":  "Welcome to Personal Tech Blog 🖐️",
+        "permalink": "https://lk153.github.io/welcome.html",
+        "desc": "This blog is a chronicle of my adventures in software engineering, with a focus on backend development using GO and Clean Architecture. Here, you'll find a mix of tutorials, personal experiences, and professional insights aimed at helping you become a better developer. I hope you enjoy your stay and find the content both educational and engaging. Let's dive into the world of code together!",
+        "category": "personal",
+        "post_date": "2024-06-26",
+        "post_date_timestamp": 1719334800
+    },
+    {
+        "id": 2,
+        "title":  "My Profile 🧑‍💻",
+        "permalink": "https://lk153.github.io/profile.html",
+        "desc": "I'm a software engineer with a passion for building efficient and scalable backend systems. With experience as a full-stack developer, I now focus primarily on backend development. My current tech stack includes the GO language, and I build most of my projects following the principles of Clean Architecture.",
+        "category": "personal",
+        "post_date": "2024-06-26",
+        "post_date_timestamp": 1719334800
+    },
+    {
+        "id": 3,
+        "title":  "My Destiny ☕",
+        "permalink": "https://lk153.netlify.app/",
+        "desc": "Hey there, coffee lovers and code enthusiasts! I'm a software engineer who believes that a good cup of coffee is the best way to fuel creativity and productivity. Here on 'My Destiny' you maybe find a story of yours also",
+        "category": "personal",
+        "post_date": "2024-06-27",
+        "post_date_timestamp": 1719421200
+    },
+    {
+        "id": 4,
         "title": "Understanding & Utilizing Go Context",
-        "permalink": "understanding-utilizing-go-context.html",
+        "permalink": "https://lk153.github.io/understanding-utilizing-go-context.html",
         "desc": "In Go, the context package is a fundamental tool designed to manage and share request-scoped data, cancellation signals, and timeouts or deadlines across different layers of an application.",
-        "category": "golang"
+        "category": "golang",
+        "post_date": "2024-07-12",
+        "post_date_timestamp": 1720717200
     },
     {
+        "id": 5,
         "title": "Go Garbage Collector",
-        "permalink": "go-garbage-collector.html",
-        "desc": "In Go, the context package is a fundamental tool designed to manage and share request-scoped data, cancellation signals, and timeouts or deadlines across different layers of an application.",
-        "category": "golang"
+        "permalink": "https://lk153.github.io/go-garbage-collector.html",
+        "desc": "This post help you in better understanding your application costs by providing insights into the Go garbage collector. By the way, It also provides guidance on how to improve your application s' resource utilization",
+        "category": "golang",
+        "post_date": "2024-07-15",
+        "post_date_timestamp": 1720976400
     },
     {
+        "id": 6,
         "title": "Go - Best practices for tool dependencies",
-        "permalink": "go-best-practice-tool-deps.html",
+        "permalink": "https://lk153.github.io/go-best-practice-tool-deps.html",
         "desc": "Go modules support developer tools (commands) as dependencies. For example, your project might require a tool to help with code generation, or to lint/vet your code for correctness. Adding developer tool dependencies ensures that all developers use the same version of each tool.",
-        "category": "golang"
+        "category": "golang",
+        "post_date": "2024-07-16",
+        "post_date_timestamp": 1721062800
     }
 ]
