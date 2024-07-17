@@ -24,9 +24,9 @@ search.addWidgets([
       item: (hit, { html, components, sendEvent }) => html`
          <li class="media">
             <div class="media-body">
-                <h3 class="mt-0 mb-1"><a onClick="${() => sendEvent('click', hit, 'Title Clicked')}" href="https://lk153.github.io/${hit.permalink}">${components.Highlight({hit, attribute: "title"})}</a></h3>
+                <h3 class="mt-0 mb-1"><a onClick="${() => sendEvent('click', hit, 'Title Clicked')}" href="${hit.permalink}">${components.Highlight({hit, attribute: "title"})}</a></h3>
                 <p>${components.Highlight({hit, attribute: "desc"})}</p>
-                <a class="continue-read" onClick="${() => sendEvent('click', hit, 'Continue-Reading Clicked')}" href="https://lk153.github.io/${hit.permalink}">Continue reading</a>
+                <a class="continue-read" onClick="${() => sendEvent('click', hit, 'Continue-Reading Clicked')}" href="${hit.permalink}">Continue reading</a>
                 <hr/>
             </div>
         </li>
