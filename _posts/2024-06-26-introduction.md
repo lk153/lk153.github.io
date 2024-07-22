@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to Personal Tech Blog 🖐️"
 permalink: "welcome.html"
 desc: "This blog is a chronicle of my adventures in software engineering, with a focus on backend development using GO and Clean Architecture. Here, you'll find a mix of tutorials, personal experiences, and professional insights aimed at helping you become a better developer. I hope you enjoy your stay and find the content both educational and engaging. Let's dive into the world of code together!"
+category: "personal"
+
 ---
 
 ## Welcome to Personal Tech Blog 🖐️

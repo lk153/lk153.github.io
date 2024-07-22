@@ -3,6 +3,7 @@ layout: post
 title: "Understanding & Utilizing Go Context"
 permalink: "understanding-utilizing-go-context.html"
 desc: "In Go, the context package is a fundamental tool designed to manage and share request-scoped data, cancellation signals, and timeouts or deadlines across different layers of an application."
+category: "golang"
 
 ---
 # Context in Go
