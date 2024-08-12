@@ -34,11 +34,11 @@ search.addWidgets([
     },
   }),
   instantsearch.widgets.configure({
-    hitsPerPage: 8,
+    hitsPerPage: 3,
   }),
-//   instantsearch.widgets.pagination({
-//     container: '#pagination',
-//   }),
+  instantsearch.widgets.pagination({
+    container: '#pagination',
+  }),
 ]);
 
 search.start();

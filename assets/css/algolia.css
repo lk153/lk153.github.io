@@ -26,3 +26,7 @@
     color: red;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
+
+#pagination {
+    margin-bottom: 50px;
+}
