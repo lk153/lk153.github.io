@@ -52,5 +52,32 @@
         "category": "golang",
         "post_date": "2024-07-16",
         "post_date_timestamp": 1721062800
+    },
+    {
+        "id": 7,
+        "title": "6 Unique & Lesser-known Go Techniques",
+        "permalink": "https://lk153.github.io/six-go-techniques.html",
+        "desc": "Today, we’re exploring 6 unique and lesser-known Go techniques: Generate, Build tags, Functional Options Pattern, Error Wrapping, Using Context for Cancellation, JSON Tagging for Structs",
+        "category": "golang",
+        "post_date": "2024-07-24",
+        "post_date_timestamp": 1721779200
+    },
+    {
+        "id": 8,
+        "title": "High Availability",
+        "permalink": "https://lk153.github.io/high-availability.html",
+        "desc": "What is high availability? High availability means that we eliminate single points of failure so that should one of those components go down, the application or system can continue running as intended.",
+        "category": "system architecture",
+        "post_date": "2024-07-24",
+        "post_date_timestamp": 1721779200
+    },
+    {
+        "id": 9,
+        "title": "How do you measure and validate the quality of acceptance criteria in agile?",
+        "permalink": "https://lk153.github.io/measure-validate-quality-of-ac-in-agile.html",
+        "desc": "How do you measure and validate the quality of acceptance criteria in agile?",
+        "category": "software management",
+        "post_date": "2024-08-12",
+        "post_date_timestamp": 1723420800
     }
 ]
