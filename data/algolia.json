@@ -68,8 +68,8 @@
         "permalink": "https://lk153.github.io/high-availability.html",
         "desc": "What is high availability? High availability means that we eliminate single points of failure so that should one of those components go down, the application or system can continue running as intended.",
         "category": "system architecture",
-        "post_date": "2024-07-24",
-        "post_date_timestamp": 1721779200
+        "post_date": "2024-08-03",
+        "post_date_timestamp": 1722643200
     },
     {
         "id": 9,
@@ -77,7 +77,16 @@
         "permalink": "https://lk153.github.io/measure-validate-quality-of-ac-in-agile.html",
         "desc": "How do you measure and validate the quality of acceptance criteria in agile?",
         "category": "software management",
-        "post_date": "2024-08-12",
-        "post_date_timestamp": 1723420800
+        "post_date": "2024-08-10",
+        "post_date_timestamp": 1723248000
+    },
+    {
+        "id": 10,
+        "title": "OSI Model",
+        "permalink": "https://lk153.github.io/osi-model.html",
+        "desc": "The open systems interconnection (OSI) model is a conceptual model which enables diverse communication systems to communicate using standard protocols. The OSI provides a standard for different computer systems to be able to communicate with each other.",
+        "category": "network",
+        "post_date": "2024-09-24",
+        "post_date_timestamp": 1727136000
     }
 ]

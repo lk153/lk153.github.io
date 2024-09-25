@@ -7,13 +7,15 @@ category: "system-characteristic"
 
 ---
 
-# Real life related issue
+# High Availability
+
+## Real life related issue
 
 Picture your city’s power grid. It supplies electricity to all of the homes and businesses in the area, making it essential for every single person. Now, imagine that a transformer in one neighborhood experiences a fault and temporarily goes offline. Ideally, the power grid can reroute electricity from other sources to compensate for the fault. This ensures that all homes and businesses continue to receive electricity without prolonged disruptions.
 
 This analogy helps us understand the concept of high availability (HA) and why it's so important in keeping a system or application running smoothly.
 
-# The definition of high availability
+## The definition of high availability
 
 What is high availability? High availability means that we eliminate single points of failure so that should one of those components go down, the application or system can continue running as intended.
 
@@ -50,7 +52,7 @@ This is how we got here:
 - 525,600 minutes - 525,594.744 minutes = 5.256 minutes
 ```
 
-## What you need to make it a reality
+### What you need to make it a reality
 
 Two important aspects of high availability are (1) a **data failover system** and (2) **data backup**. To achieve high availability, the system has to have a way to maintain its functionality.
 
@@ -60,11 +62,11 @@ Two important aspects of high availability are (1) a **data failover system** an
 
 All of these can lead to service disruption and hamper a system's performance, sometimes significantly.
 
-## What about high-availability clusters?
+### What about high-availability clusters?
 
 Which are groups of servers that work together as one system. While these servers share storage, they're on different networks. High-availability clusters have **failover** capabilities, which means that if one of the servers goes down, there's a backup component that can take its place.
 
-## Fault tolerance
+### Fault tolerance
 
 When people talk about high availability, you might also hear *Fault Tolerance* used interchangeably. Essentially, they refer to the same concept.
 
@@ -74,7 +76,7 @@ The backup components in a fault-tolerant system can include alternatives such a
 
 ![Fault tolerance](/assets/img/high-availability.avif "High Availability")
 
-# Why is high availability important?
+## Why is high availability important?
 
 Because this ensures that systems are able to operate continuously for the end user without disruption. It's part of a company's greater *disaster recovery protocol*, which defines exactly how they plan to **minimize downtime** and **loss** in the event of significant downtime.
 
@@ -84,7 +86,7 @@ In fact, having high availability should mean that you're able to avoid downtime
 
 High availability extends beyond **providing a positive user experience**, **preventing productivity losses** and **safeguarding a brand’s reputation**. It is a critical safeguard against potential disasters.
 
-## Examples of high-availability systems
+### Examples of high-availability systems
 
 Imagine using the self-driving mode in an electric car, and due to a single point of failure, the entire system shuts down. In other words, the car — which was previously doing 80mph down the expressway — suddenly loses all control. Would you want to be sharing the road with that driver or be behind the wheel yourself?
 
@@ -94,22 +96,22 @@ Think of electronic health records (EHRs) — real-time, digitized charts contai
 
 If those EHRs aren't built on high-availability architecture, and there's some sort of system failure, we might be looking at *massive data loss at best*, and *at worst, the exposure of that very sensitive data*. This underscores the critical importance of working with high-availability infrastructure to maintain the **integrity** and **security** of vital data.
 
-# How high availability works
+## How high availability works
 
 In reality, no system can achieve 100% availability at all times. However, to achieve the rule of five nines and build an HA system, there are four key pillars of high availability that we must make a priority.
 
-## 1. Eliminating single points of failure
+### 1. Eliminating single points of failure
 
 Eliminating single points of failure is key in a high-availability system. Without this safeguard, if everything was running on one server, and that server failed, the whole system would go down.
 
-## 2. Implementing reliable redundancy
+### 2. Implementing reliable redundancy
 
 “Redundancy" means having backup components within the HA system. If the original component fails, its "twin" can take over for it, helping to minimize downtime caused by the failure and maintain high availability.
 
-## 3. Facilitating system failure detection
+### 3. Facilitating system failure detection
 
 In the event of a component failure within the primary system, there should be clear protocols in place so that (1) **the failure is obvious and documented** and (2) ideally, the component can **resolve the issue on its own**. This is an important part of disaster recovery.
 
-## 4. Achieving load balancing
+### 4. Achieving load balancing
 
 Load balancing means that workloads — like network traffic — are distributed across multiple systems or servers in an efficient manner. With load balancing, no one resource or server will become overwhelmed with its workload, and high availability becomes more feasible.
