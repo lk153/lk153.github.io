@@ -88,5 +88,14 @@
         "category": "network",
         "post_date": "2024-09-24",
         "post_date_timestamp": 1727136000
+    },
+    {
+        "id": 11,
+        "title": "Difference Between Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning",
+        "permalink": "https://lk153.github.io/differences-ai-learning.html",
+        "desc": "What’s the Difference Between Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning?",
+        "category": "AI",
+        "post_date": "2024-12-18",
+        "post_date_timestamp": 1734497363
     }
 ]
