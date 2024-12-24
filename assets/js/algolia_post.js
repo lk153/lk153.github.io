@@ -41,5 +41,14 @@ search.addWidgets([
   }),
 ]);
 
+search.on('render', () => {
+  const container = document.querySelector('#loading-indicator');
+  if (search.status === 'loading' || search.status === 'stalled') {
+    container.innerText = 'Loading search results';
+  } else {
+    container.innerText = '';
+  }
+})
+
 search.start();
 

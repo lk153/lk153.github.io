@@ -97,5 +97,14 @@
         "category": "AI",
         "post_date": "2024-12-18",
         "post_date_timestamp": 1734497363
+    },
+    {
+        "id": 12,
+        "title": "8 Types of Prompt Engineering",
+        "permalink": "https://lk153.github.io/type-prompt-engineering.html",
+        "desc": "There are 8 prompt engineering methods:(1) Zero-Shot Learning, (2) One-Shot Learning, (3) Few-Shot Learning, (4) Chain-of-Thought Prompting, (5) Iterative Prompting, (6) Negative Prompting, (7) Hybrid Prompting, (8) Prompt Chaining",
+        "category": "AI",
+        "post_date": "2024-12-24",
+        "post_date_timestamp": 1734998400
     }
 ]
