@@ -76,7 +76,7 @@
         "title": "How do you measure and validate the quality of acceptance criteria in agile?",
         "permalink": "https://lk153.github.io/measure-validate-quality-of-ac-in-agile.html",
         "desc": "How do you measure and validate the quality of acceptance criteria in agile?",
-        "category": "software management",
+        "category": "agile",
         "post_date": "2024-08-10",
         "post_date_timestamp": 1723248000
     },
@@ -106,5 +106,14 @@
         "category": "AI",
         "post_date": "2024-12-24",
         "post_date_timestamp": 1734998400
+    },
+    {
+        "id": 13,
+        "title": "Software Development Outsourcing Checklist — How to Ensure Success",
+        "permalink": "https://lk153.github.io/software-development-outsourcing-checklist.html",
+        "desc": "Leveraging a trusted development partner can help you expedite your product roadmap and adoption of new technologies, however, these projects take thoughtful planning and structure to execute successfully. This software development outsourcing checklist outlines many of the key practices that are critical to success and are built on the following key principles",
+        "category": "software management",
+        "post_date": "2024-12-30",
+        "post_date_timestamp": 1735516800
     }
 ]
