@@ -115,5 +115,14 @@
         "category": "software management",
         "post_date": "2024-12-30",
         "post_date_timestamp": 1735516800
+    },
+    {
+        "id": 14,
+        "title": "gRPC Server Reflection Tutorial",
+        "permalink": "https://lk153.github.io/grpc-server-reflection.html",
+        "desc": "gRPC Server Reflection provides information about publicly-accessible gRPC services on a server, and assists clients at runtime to construct RPC requests and responses without precompiled service information. It is used by gRPCurl, which can be used to introspect server protos and send/receive test RPCs.",
+        "category": "grpc",
+        "post_date": "2025-01-09",
+        "post_date_timestamp": 1736380800
     }
 ]
