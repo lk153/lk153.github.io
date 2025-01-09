@@ -47,7 +47,7 @@ First, start grpc server:
 $ go run ./server/main.go
 ```
 
-output:
+*output*:
 ```bash
 server listening at [::]:5001
 ```
@@ -61,7 +61,7 @@ The `list` command lists services exposed at a given port:
 ```
 $ grpcurl -plaintext localhost:50051 list
 ```
-output:
+*output*:
 ```
 grpc.examples.echo.Echo
 grpc.reflection.v1alpha.ServerReflection
@@ -74,7 +74,7 @@ The `list` command lists methods given the full service name (in the format of \
 $ grpcurl -plaintext localhost:50051 list helloworld.Greeter
 ```
 
-output:
+*output*:
 ```
 helloworld.Greeter.SayHello
 ```
@@ -92,7 +92,7 @@ The describe command inspects a method given its full name (in the format of \<p
 ```
 $ grpcurl -plaintext localhost:50051 describe helloworld.Greeter.SayHello
 ```
-output:
+*output*:
 ```
 helloworld.Greeter.SayHello is a method:
 rpc SayHello ( .helloworld.HelloRequest ) returns ( .helloworld.HelloReply );
@@ -104,7 +104,7 @@ We can use the describe command to inspect request/response types given the full
 ```
 $ grpcurl -plaintext localhost:50051 describe helloworld.HelloRequest
 ```
-output:
+*output*:
 ```
 helloworld.HelloRequest is a message:
 message HelloRequest {
@@ -120,7 +120,7 @@ We can send RPCs to a server and get responses using the full method name (in th
 $ grpcurl -plaintext -format text -d 'name: "gRPCurl"' \
   localhost:50051 helloworld.Greeter.SayHello
 ```
-output:
+*output*:
 ```
 message: "Hello gRPCurl"
 ```
