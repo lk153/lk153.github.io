@@ -21,11 +21,12 @@ Ngược lại, liều mạng thường là những hành động mù quáng, b�
 Ví dụ, đua xe trên đường phố, trèo lên các tòa nhà cao để quay video "câu view", hay xông vào nguy hiểm mà không có kiến thức hay chuẩn bị – đó là liều lĩnh, không phải dũng cảm.
 
 ## Điểm khác biệt cốt lõi
-|  Tiêu chí | Dũng cảm  | Liều mạng |
+
+| Tiêu chí | Dũng cảm | Liều mạng |
 |---|---|---|
-|  Động cơ | Chính nghĩa, trách nhiệm  | Sĩ diện, bốc đồng, thách thức  |
-|  Nhận thức nguy hiểm | Có, và chấp nhận đối mặt  | Có thể không nhận thức hoặc cố tình bỏ qua |
-| Hành động  |  Có suy nghĩ, có chuẩn bị | Bất chấp, thiếu lý trí  |
+| Động cơ | Chính nghĩa, trách nhiệm | Sĩ diện, bốc đồng, thách thức |
+| Nhận thức nguy hiểm | Có, và chấp nhận đối mặt | Có thể không nhận thức hoặc cố tình bỏ qua |
+| Hành động | Có suy nghĩ, có chuẩn bị | Bất chấp, thiếu lý trí |
 | Hậu quả | Thường mang lại kết quả tích cực | Dễ dẫn đến thiệt hại hoặc mất mát |
 
 ## Kết luận
