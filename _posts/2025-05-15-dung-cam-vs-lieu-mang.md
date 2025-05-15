@@ -33,5 +33,3 @@ Ví dụ, đua xe trên đường phố, trèo lên các tòa nhà cao để qua
 Dũng cảm là sức mạnh có định hướng, còn liều mạng là sự liều lĩnh thiếu suy nghĩ. Chúng ta nên học cách trở nên dũng cảm – tức là biết đối mặt với khó khăn một cách có trách nhiệm, nhưng đồng thời cũng cần tránh những hành động nông nổi mang danh "can đảm".
 
 Trong thời đại thông tin, nơi mà những hành động mạo hiểm dễ trở thành tiêu điểm mạng xã hội, hãy tỉnh táo: Dũng cảm không cần được ghi hình, nhưng liều mạng đôi khi phải trả giá bằng cả cuộc đời.
-
-Nếu bạn muốn bài viết này phù hợp với học sinh, bài nghị luận xã hội, hay đăng báo... mình có thể chỉnh lại giọng văn. Bạn cần không?
