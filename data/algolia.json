@@ -142,5 +142,14 @@
         "category": "life",
         "post_date": "2025-05-29",
         "post_date_timestamp": 1748451600
+    },
+    {
+        "id": 17,
+        "title": "MYSQL Isolation Levels",
+        "permalink": "https://lk153.github.io/mysql-isolation-levels.html",
+        "desc": "MySQL isolation levels control how transactions interact with each other, particularly when accessing the same data concurrently. They determine the degree of isolation between transactions, influencing which inconsistencies (like dirty reads or phantom reads) may occur. These levels dictate how locks are acquired and released, affecting both data consistency and performance.",
+        "category": "sql",
+        "post_date": "2025-06-19",
+        "post_date_timestamp": 1750266000
     }
 ]
