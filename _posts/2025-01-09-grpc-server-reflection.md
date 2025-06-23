@@ -113,14 +113,16 @@ message HelloRequest {
 ```
 
 ### Call a remote method
-We can send RPCs to a server and get responses using the full method name (in the format of \<package>.\<service>.\<method>). The -d \<string> flag represents the request data and the -format text flag indicates that the request data is in text format.
+We can send RPCs to a server and get responses using the full method name (in the format of **\<package>.\<service>.\<method>**). The `-d` **\<string>** flag represents the request data and the `-format json` flag indicates that the request data is in **json** format.
 
 - Call a unary method
 ```
-$ grpcurl -plaintext -format text -d 'name: "gRPCurl"' \
+$ grpcurl -plaintext -format json -d '{"name": "gRPCurl"}' \
   localhost:50051 helloworld.Greeter.SayHello
 ```
 *output*:
 ```
-message: "Hello gRPCurl"
+{
+  message: "Hello gRPCurl"
+}
 ```
