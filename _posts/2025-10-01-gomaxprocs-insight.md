@@ -13,7 +13,7 @@ category: "golang"
 
 ***
 
-#### Without setting GOMAXPROCS
+### Without setting GOMAXPROCS
 If you have 8 CPU cores, Go will schedule goroutines across all 8 by default.
 
 Otherwise, the Go runtime selects an appropriate default value from a combination of
@@ -24,7 +24,7 @@ Otherwise, the Go runtime selects an appropriate default value from a combinatio
 
 
 # 2. Usage Examples
-#### Example
+### Example
 
 ```go
 runtime.GOMAXPROCS(1) // use only 1 core
@@ -39,7 +39,7 @@ runtime.GOMAXPROCS(4) // use 4 cores
 👉 Go can schedule goroutines on 4 different cores simultaneously → parallelism.
 
 ***
-#### Key idea
+### Key idea
 - **Concurrency** = many tasks in progress (goroutines).
 - **Parallelism** = many tasks running at the same time (needs multiple CPU cores).
 - **GOMAXPROCS** controls how much parallelism you allow.
@@ -147,7 +147,7 @@ Then I update `GOMAXPROCS` to `4` & `8`. Each time change `GOMAXPROCS` I run exp
 
 
 # 4. Conclusion
-#### I/O-bound Example (API calls)
+### I/O-bound Example (API calls)
 Here’s 3 goroutines (G1, G2, G3) making HTTP requests when `GOMAXPROCS=1`
 ```perl
 Time → ─────────────────────────────────────────────────────────>
@@ -163,10 +163,10 @@ G3:                     |Send Req|====WAIT====|Process Resp|
 So they overlap nicely.
 ⏱️ Total time ≈ time of the slowest request.
 
-#### CPU-bound Example (heavy computation)
+### CPU-bound Example (heavy computation)
 Now, if each goroutine runs a big computation loop (no I/O):
 
-##### With `GOMAXPROCS=1`
+#### With `GOMAXPROCS=1`
 ```less
 Time → ─────────────────────────────────────────────────────────>
 
@@ -177,7 +177,7 @@ G3:                                             [Compute...............]
 - Each goroutine hogs the only CPU, so they run one after the other.
 - ⏱️ Total time ≈ sum of all workloads.
 
-##### With `GOMAXPROCS=3` (3 CPUs available)
+#### With `GOMAXPROCS=3` (3 CPUs available)
 ```less
 Time → ─────────────────────────────────────────────────────────>
 
