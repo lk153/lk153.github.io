@@ -151,5 +151,14 @@
         "category": "sql",
         "post_date": "2025-06-19",
         "post_date_timestamp": 1750266000
+    },
+    {
+        "id": 18,
+        "title": "GOMAXPROCS Insight",
+        "permalink": "https://lk153.github.io/gomaxprocs-insight.html",
+        "desc": "GOMAXPROCS sets the maximum number of CPUs that can be executing simultaneously and returns the previous setting. If n < 1, it does not change the current setting.",
+        "category": "golang",
+        "post_date": "2025-10-01",
+        "post_date_timestamp": 1759276800
     }
 ]
