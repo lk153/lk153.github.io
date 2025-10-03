@@ -158,9 +158,8 @@ G3:                     |Send Req|====WAIT====|Process Resp|
 ```
 - `|Send Req|` and `|Process Resp|` → short CPU bursts
 - `====WAIT====` → blocked on network (no CPU needed)
-
-👉 Even with 1 CPU, while G1 is waiting, CPU is free for G2/G3 to run. So they overlap nicely.
-⏱️ Total time ≈ time of the slowest request.
+- 👉 Even with 1 CPU, while G1 is waiting, CPU is free for G2/G3 to run. So they overlap nicely.
+- ⏱️ Total time ≈ time of the slowest request.
 
 ### CPU-bound Example (heavy computation)
 Now, if each goroutine runs a big computation loop (no I/O):
