@@ -17,6 +17,15 @@ body {
     h2 {font-size: 24px; font-family: Arial, sans-serif;}
     h1 {font-family: Arial, sans-serif;}
     p {font-size: 16px; font-family: Arial, sans-serif;}
+
+    table {
+        border: 3px solid #ebebeb;
+
+        td, th {
+            border: 2px solid #ebebeb;
+        }
+    }
+
 }
 
 
