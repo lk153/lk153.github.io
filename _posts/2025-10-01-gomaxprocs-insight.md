@@ -146,7 +146,7 @@ Then I update `GOMAXPROCS` to `4` & `8`. Each time change `GOMAXPROCS` I run exp
 |             **8**|    137.731375 ms|        126.189 ms|     130.6665 ms|
 
 
-# 4. Conclusion
+## 4. Conclusion
 ### I/O-bound Example (API calls)
 Here’s 3 goroutines (G1, G2, G3) making HTTP requests when `GOMAXPROCS=1`
 ```perl
