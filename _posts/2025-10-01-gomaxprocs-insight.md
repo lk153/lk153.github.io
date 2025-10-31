@@ -7,7 +7,7 @@ category: "golang"
 
 ---
 
-# 1. Introduction
+## 1. Introduction
 - It sets how many OS threads (CPU cores) Go can run goroutines on at the same time.
 - Default = number of CPU cores on your machine.
 
@@ -23,7 +23,7 @@ Otherwise, the Go runtime selects an appropriate default value from a combinatio
 ***
 
 
-# 2. Usage Examples
+## 2. Usage Examples
 ### Example
 
 ```go
@@ -49,7 +49,7 @@ Only tweak when:
 - Benchmarking parallel vs single-core performance.
 - Running in environments with CPU limits (like Docker cgroups).
 
-# 3. Comparation
+## 3. Comparation
  
 ### CPU-Bound
 Firstly I define a function as CPU-bound task
